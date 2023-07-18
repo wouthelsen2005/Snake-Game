@@ -153,7 +153,7 @@ class Game():
     self.snake = Snake()
     self.alive = True
     self.fruit_amount = 3
-    self.FPS = 60
+    self.FPS = 30
     self.playing = True
     all_sprites.add(self.snake)
     self.add_blocks_to_snake()
